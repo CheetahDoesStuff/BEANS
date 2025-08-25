@@ -9,10 +9,9 @@ First, youll need an BIOMod, you can refrence the [Module Developement Documenta
 
 Then youll have to locate your platforms module directory, when running beans youll get an output similar to this:
 ```
-2025-08-25 19:03:42 ( BEANS ) | [INFO] -------- BEANS ---------
-2025-08-25 19:03:42 ( BEANS ) | [INFO]  - Beans Is Initializing - 
-2025-08-25 19:03:42 ( BEANS ) | [INFO]  - Beans IO Path: /home/cheetah/.local/share/BEANS - 
-2025-08-25 19:03:42 ( BEANS ) | [INFO] -------- BEANS ---------
-2025-08-25 19:03:42 ( BEANS ) | [INFO] Initializing BEANS...
-2025-08-25 19:03:42 ( BEANS ) | [INFO] Initiialized BEANS in 27.252 ms
+2025-08-25 19:04:30 ( BEANS ) | [INFO] -------- BEANS ---------
+2025-08-25 19:04:30 ( BEANS ) | [INFO]  - Beans Is Initializing - 
+2025-08-25 19:04:30 ( BEANS ) | [INFO]  - Beans IO Path: /home/cheetah/.local/share/BEANS/BIOMods - 
+2025-08-25 19:04:30 ( BEANS ) | [INFO] -------- BEANS ---------
 ```
+Where the outputed BEANS IO Path is the path we are looking for.
