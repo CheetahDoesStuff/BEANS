@@ -9,7 +9,7 @@ from src.BEANS.BEANS_GUI.gui import BEANSGui
 from src.BEANS.interpreter.interpreter import interpret_line
 from src.BEANS.interpreter.memory.memory import memory
 from src.BEANS.interpreter.memory.registers import registers
-from BEANS.data import data
+from src.BEANS.data import data
 
 from usefullog.logger import Logger
 from platformdirs import user_log_dir
