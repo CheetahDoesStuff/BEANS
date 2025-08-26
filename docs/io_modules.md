@@ -23,3 +23,6 @@ Now that we have both our BIOMod and the path to our Module directory, well move
 - The file isnt in some subdirectory of the BIOMods folder
 
 Alright, now you should be all set! To learn how to use these BIOMods, please refer to the next section.
+
+## Importing and using BIOMods
+TODO: write this
