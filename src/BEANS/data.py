@@ -18,6 +18,10 @@ class _data:
 
         self.module_list = []
         self.data_path = Path(user_data_dir("BEANS", "Cheetah")) / "BIOMods"
+        
+        self.num_size = 16
+        self.register_count = 16
+        self.memory_count = 64
     
 
 
