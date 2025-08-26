@@ -1,6 +1,7 @@
 from usefullog.logger import Logger
 from platformdirs import user_log_dir, user_data_dir
 from sys import exit as sys_exit
+from pathlib import Path
 
 
 
@@ -16,13 +17,14 @@ class _data:
         )
 
         self.module_list = []
+        self.data_path = Path(user_data_dir("BEANS", "Cheetah")) / "BIOMods"
     
 
 
     def init_logs(self):
         self.logger.info("-------- BEANS ---------")
         self.logger.info(" - Beans Is Initializing - ")
-        self.logger.info(f" - Beans IO Path: {user_data_dir("BEANS", "Cheetah")}/BIOMods - ")
+        self.logger.info(f" - Beans IO Path: {self.data_path} - ")
         self.logger.info("-------- BEANS ---------")
 
 
