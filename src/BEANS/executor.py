@@ -104,8 +104,8 @@ def run_executor(code_path):
         data.logger.error("File provided doesnt exist or is not a valid BEANS file")
         data.exit()
 
-    mem = memory(32, 8)
-    regs = registers(8, 8)
+    mem = memory(data.memory_count, data.num_size)
+    regs = registers(data.register_count, data.num_size)
 
     gui = BEANSGui(code_path, data.logger)
     executor = BEANSExecutor(argv[1], gui, data.logger, mem, regs)
