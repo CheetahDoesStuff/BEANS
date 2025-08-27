@@ -81,6 +81,7 @@ But, lets at least go over the list of instructions and what they do.
 | **Conditionals & Jumps** |  |  |  |
 | JMP | int | Jumps the program to the entered line number | Coming Soon |
 | JMPR | reg | Jumps the program to the registers value in a line number | Coming Soon |
+| JMPR | reg, int | Jumps to the entered Int in a line number if the value of the reg is 0 | Coming Soon |
 | **IO System** |  |  |  |
 | LDIO | int, int, int, mem, mem | see [io_modules.md](https://github.com/BravestCheetah/BEANS/blob/main/docs/io_modules.md) | [io_modules.md](https://github.com/BravestCheetah/BEANS/blob/main/docs/io_modules.md) |
 | **Misc** |  |  |  |
