@@ -78,6 +78,8 @@ But, lets at least go over the list of instructions and what they do.
 | LSHFT | reg 1, reg 2, reg 3 | Shifts the bits in reg 1 left by reg 2 steps and stores it into reg 3 | [bitwiseOperations.bean](https://github.com/BravestCheetah/BEANS/blob/main/examples/bitwiseOperations.bean) |
 | RSHFT | reg 1, reg 2, reg 3 | Shifts the bits in reg 1 right by reg 2 steps and stores it into reg 3 | [bitwiseOperations.bean](https://github.com/BravestCheetah/BEANS/blob/main/examples/bitwiseOperations.bean) |
 | - |  |  |  |
+| **Conditionals & Jumps** |  |  |  |
+| JMP | int | Jumps the program to the entered line number | Coming Soon |
 | **IO System** |  |  |  |
 | LDIO | int, int, int, mem, mem | see [io_modules.md](https://github.com/BravestCheetah/BEANS/blob/main/docs/io_modules.md) | [io_modules.md](https://github.com/BravestCheetah/BEANS/blob/main/docs/io_modules.md) |
 | **Misc** |  |  |  |
