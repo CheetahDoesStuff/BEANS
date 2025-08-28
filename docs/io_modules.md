@@ -40,4 +40,6 @@ You can load the BIOMod by using the bult in LDIO operation, it takes in 5 argum
   
 - Group 2: Mem, Mem
 
+  This group contain 2 memory adresses, these are used to specify a range of which the IO module will be mapped to (To learn what memory mapping is, please read the next section). For example "m1 m4" would translate to "m1, m2, m3, m4".
+
 ### Using the BIOMod
