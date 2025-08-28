@@ -32,6 +32,12 @@ Alright, now you should be all set! To learn how to use these BIOMods, please re
 
 ### Loading the BIOMod
 
-
+You can load the BIOMod by using the bult in LDIO operation, it takes in 5 arguments, grouped into 2 groups:
+- Group 1: Int, Int, Int
+  
+  This group contains 3 integers which when handled will be translated into a string made out of 3 characters following the ascii set.
+  This is the BIOMod ID, which in other terms is the name of the BIOMod python file (eg. TST.py would be the values 84 - T, 83 - S, 84 - T)
+  
+- Group 2: Mem, Mem
 
 ### Using the BIOMod
