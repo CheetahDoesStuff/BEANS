@@ -47,3 +47,5 @@ So a full call would be formatted like this: `LDIO 84 83 84 m1 m4`
 ### Using the BIOMod
 
 The Module system uses a memory mapped architecture which means you map the Module to have read and write access to some of your memory adresses specified in group 2 of the argument. Note that different modules require different amounts of adresses to function properly and they do have the ability to error and exit the program at any time.
+
+The details of how the module and program communicates is varying from module to module as that is a choice by the developer and is not written here, though all official modules will have documentation availble in this repository through the Module List.
