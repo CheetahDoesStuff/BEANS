@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "beans"
 version = "0.9.1"
@@ -9,5 +13,5 @@ dependencies = [
     "pyqt6>=6.9.1",
     "usefullog>=0.8.4",
 ]
-[tools.uv.scripts]
+[projects.scripts]
 beans = "src.BEANS.run:main"

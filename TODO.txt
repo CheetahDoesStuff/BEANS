@@ -1,0 +1,6 @@
+Add Docs For Module Developement
+Add Command Line Command For BEANS
+Add Command Line Arguments For Settings
+Develop Modules:
+ - Pixel display
+ - Text display
