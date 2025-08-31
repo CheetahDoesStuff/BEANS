@@ -13,5 +13,5 @@ dependencies = [
     "pyqt6>=6.9.1",
     "usefullog>=0.8.4",
 ]
-[projects.scripts]
+[project.scripts]
 beans = "src.BEANS.run:main"
