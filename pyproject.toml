@@ -14,4 +14,4 @@ dependencies = [
     "usefullog>=0.8.4",
 ]
 [project.scripts]
-beans = "src.BEANS.run:main"
+beans = "BEANS.run:main"

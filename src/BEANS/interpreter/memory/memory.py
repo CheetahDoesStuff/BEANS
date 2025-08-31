@@ -1,4 +1,4 @@
-from src.BEANS.interpreter.memory.registers import registers, register
+from BEANS.interpreter.memory.registers import registers, register
 
 class memory():
     def __init__(self, mem_size: int, mem_reg_size: int):

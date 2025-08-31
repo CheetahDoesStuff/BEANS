@@ -1,6 +1,6 @@
-from src.BEANS.interpreter.memory.registers import registers
-from src.BEANS.interpreter.memory.memory import memory
-from src.BEANS.interpreter.operation_handler import execute_operation
+from BEANS.interpreter.memory.registers import registers
+from BEANS.interpreter.memory.memory import memory
+from BEANS.interpreter.operation_handler import execute_operation
 
 def parse_args(args: list[str]) -> list:
     

@@ -5,11 +5,11 @@ import os
 from pathlib import Path
 from time import perf_counter
 
-from src.BEANS.BEANS_GUI.gui import BEANSGui
-from src.BEANS.interpreter.interpreter import interpret_line
-from src.BEANS.interpreter.memory.memory import memory
-from src.BEANS.interpreter.memory.registers import registers
-from src.BEANS.data import data
+from BEANS.BEANS_GUI.gui import BEANSGui
+from BEANS.interpreter.interpreter import interpret_line
+from BEANS.interpreter.memory.memory import memory
+from BEANS.interpreter.memory.registers import registers
+from BEANS.data import data
 
 from usefullog.logger import Logger
 from platformdirs import user_log_dir

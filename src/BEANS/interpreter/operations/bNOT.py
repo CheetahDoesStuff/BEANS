@@ -1,7 +1,7 @@
-from src.BEANS.interpreter.memory.memory import memory
-from src.BEANS.interpreter.memory.registers import registers
+from BEANS.interpreter.memory.memory import memory
+from BEANS.interpreter.memory.registers import registers
 
-from src.BEANS.interpreter.op_api import handle_args
+from BEANS.interpreter.op_api import handle_args
 
 
 class operation:

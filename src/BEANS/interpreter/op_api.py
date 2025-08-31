@@ -1,4 +1,4 @@
-from src.BEANS.data import data
+from BEANS.data import data
 
 def _is_num(arg):
     return arg[0] == "int" or arg[0] == "bin"

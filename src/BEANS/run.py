@@ -1,5 +1,5 @@
 def main():
-    from src.BEANS.executor import run_executor
+    from BEANS.executor import run_executor
     import argparse
     print("wowowowo")
 

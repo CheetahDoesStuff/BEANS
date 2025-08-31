@@ -1,5 +1,5 @@
-from src.BEANS.interpreter.memory.memory import memory
-from src.BEANS.interpreter.memory.registers import registers
+from BEANS.interpreter.memory.memory import memory
+from BEANS.interpreter.memory.registers import registers
 
 import importlib, pathlib, os
 import sys

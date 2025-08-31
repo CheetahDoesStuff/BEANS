@@ -7,7 +7,7 @@ from time import perf_counter
 
 import sys
 
-from src.BEANS.data import data
+from BEANS.data import data
 
 class BEANSGui(QMainWindow):
     def __init__(self, code_path, logger: Logger):

@@ -1,4 +1,4 @@
-from src.BEANS.interpreter.memory.memory import memory
+from BEANS.interpreter.memory.memory import memory
 
 class restricted_memory:
     def __init__(self, memory: memory, access_adresses: list) -> None:
