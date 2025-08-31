@@ -1,5 +1,6 @@
 def main():
     from BEANS.executor import run_executor
+    from BEANS.data import data
     import argparse
     
     parser = argparse.ArgumentParser(description="Execute a .bean assembly file using the BEANExecutor")
