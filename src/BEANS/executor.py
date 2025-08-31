@@ -105,7 +105,7 @@ def run_executor(code_path):
         data.exit()
 
     mem = memory(data.memory_count, data.num_size)
-    regs = registers(data.register_count, data.num_size)
+    regs = registers(data.num_size, data.register_count)
 
     gui = BEANSGui(code_path, data.logger)
     executor = BEANSExecutor(argv[1], gui, data.logger, mem, regs)
