@@ -12,15 +12,28 @@ Well, BEANS is a custom programming language trying to look and feel similar to 
 **Note: I am working on getting the beans name on PyPi, easier installation through PyPi or the AUR is coming in the near future.**
 
 
-Curently, to run code youll need both uv and git installed. Then youll want to clone this repo:
+Curently, to run code youll need both uv and git installed. Then youll want to clone this repo and sync the enviorment:
 
 `git clone https://github.com/BravestCheetah/BEANS`
+`uv sync`
 
-Then you can just run any code file by navigating inside the repo and run this command:
+Then you can use the recently implemented CLI Tool to run your programs, to more quickly install it you would install an editable version:
 
-`uv run exec.py path/to/code`
+`uv pip install -e .`
 
-**NOTE: This will change in the future, exec.py is a temporary program to allow the user to execute code until the cli gets implemented**
+Alternatively, on Windows you can install it globally, skipping enviorment activation:
+
+`pip install -e .`
+
+Then you need to activate the enviorment (note that this will only apply to the current shell, youll need to redo this step every time you open a new console window):
+
+`source .venv/bin/activate`
+
+Now you can simply use the bean command to run programs:
+
+`bean my_code.bean`
+
+**Note: Documentation on how to use the different settings flags are going to be availble very soon.**
 
 ## How do i write code?
 *Suprisingly fast, so dont hold back (im serious this stuff FAST)*
