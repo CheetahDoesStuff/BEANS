@@ -8,6 +8,7 @@ Well, BEANS is a custom programming language trying to look and feel similar to 
 
 ## How can i run code?
 *Using the project is the best way to utilize the project*
+
 **Note: I am working on getting the beans name on PyPi, easierr installation through PyPi or the AUR is coming in the near future.**
 
 
