@@ -37,11 +37,11 @@ But there is a lot of flags and arguments, so lets go over them!
 
   The amount of registers, specified as an integer.
 
-  Default: 16
+  Default: 16 registers
 
 * `-m` / `--memory-adress-count`
 
   The amount of memory adresses, specified as an integer.
 
-  Default: 64
+  Default: 64 adresses
   
