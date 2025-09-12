@@ -17,3 +17,4 @@ Here is the most basic command you can run:
 
 `beans my_file.bean`
 
+But there is a lot of flags and arguments, so lets go over them!
