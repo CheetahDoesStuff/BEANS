@@ -23,7 +23,7 @@ But there is a lot of flags and arguments, so lets go over them!
 
 * `-p` / `--module-path`
   
-  A custom path specifying where the interpreter should look for IO modules. Learn more in the [IO Module Usage Manual](https://github.com/CheetahDoesStuff/BEANS/blob/main/docs/io_modules.md)
+  A custom path specifying where the interpreter should look for IO modules, specified as an absolute path. Learn more in the [IO Module Usage Manual](https://github.com/CheetahDoesStuff/BEANS/blob/main/docs/io_modules.md)
   
   Default: Automatically set to your systems data path. Refer to the IO Module Usage Manual to learn how to view your specific path.
 
