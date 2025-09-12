@@ -22,12 +22,26 @@ But there is a lot of flags and arguments, so lets go over them!
 ### cli arguments
 
 * `-p` / `--module-path`
+  
   A custom path specifying where the interpreter should look for IO modules. Learn more in the [IO Module Usage Manual](https://github.com/CheetahDoesStuff/BEANS/blob/main/docs/io_modules.md)
+  
   Default: Automatically set to your systems data path. Refer to the IO Module Usage Manual to learn how to view your specific path.
 
 * `-b` / `--value-size`
-  The size of a single value specified in bits. Used in registers and memory adresses.
+  
+  The size of a single value specified in an integer representing the amount of bits. Used in registers and memory adresses.
+  
   Default: 16 bits
 
 * `-r` / `--register-count`
+
+  The amount of registers, specified as an integer.
+
+  Default: 16
+
+* `-m` / `--memory-adress-count`
+
+  The amount of memory adresses, specified as an integer.
+
+  Default: 64
   
