@@ -8,5 +8,12 @@ Lets go over how to use and read the CLI and GUI of the Interpreter. Well go ove
 
 The CLI is the main way of executing your BEANS code. There are other ways (by importing functions and running the directly), but its not recommended as it may in most cases cause errors or unintended behaviour (aka dont do that, thats why i made the cli lmao)
 
-### Using the cli
+### Using the cli (beans command)
 *to utilize means to use something.*
+
+The base cli requires one argument, the file to execute. Note that there are more flags and optional arguments for customizing the interpreter and the VM. But as those are optional lets go over the simplest command you can call, running a file with default settings. If you dont know how to execute files, please refer to the [developement documentation](https://github.com/CheetahDoesStuff/BEANS/blob/main/docs/developement.md).
+
+Here is the most basic command you can run:
+
+`beans my_file.bean`
+
